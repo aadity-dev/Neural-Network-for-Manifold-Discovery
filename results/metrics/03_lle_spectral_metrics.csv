@@ -1,0 +1,5 @@
+Dataset,LLE standard TW,LLE standard time,LLE modified TW,LLE modified time,LLE hessian TW,LLE hessian time,LTSA TW,LTSA time,Spectral TW,Spectral time
+Swiss Roll,0.997,0.07s,0.997,0.13s,0.997,0.17s,0.997,0.17s,0.898,0.11s
+S-Curve,0.979,0.07s,0.949,0.13s,FAIL,n/a,FAIL,n/a,0.938,0.10s
+Torus,0.970,0.09s,0.969,0.16s,0.969,0.21s,0.969,0.26s,0.971,0.10s
+Mobius Strip,0.997,0.07s,0.985,0.15s,FAIL,n/a,FAIL,n/a,0.985,0.16s
