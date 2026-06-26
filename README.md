@@ -19,6 +19,10 @@ A systematic comparison of dimensionality reduction and manifold learning method
 | Torus | 2D | Topology: can't flatten without tearing |
 | Möbius Strip | 2D | Non-orientable surface |
 
+
+
+update some part
+
 ## Project structure
 ```
 manifold-discovery/
