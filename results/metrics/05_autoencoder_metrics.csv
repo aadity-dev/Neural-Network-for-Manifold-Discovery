@@ -1,0 +1,5 @@
+Dataset,Final train loss,Reconstruction MSE,Trustworthiness,Fit time (s),Parameters
+Swiss Roll,0.047983,1.9960,0.983,2.7,"5,797"
+S-Curve,0.033577,0.0221,0.988,2.7,"5,797"
+Torus,0.033941,0.1600,0.970,2.5,"5,797"
+Mobius Strip,0.020726,0.0067,0.985,2.5,"5,797"

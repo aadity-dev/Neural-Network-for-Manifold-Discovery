@@ -21,6 +21,14 @@ encode_dataset(model, X, device)
 run_all_autoencoders(datasets, ...)
 """
 
+import os
+# Limit multithreading to 1 to prevent OpenMP collisions causing segmentation faults on macOS
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
+os.environ["NUMEXPR_NUM_THREADS"] = "1"
+
 import time
 import numpy as np
 import torch
