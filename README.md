@@ -52,7 +52,7 @@ manifold-discovery/
 
 ```bash
 # 1. Clone and enter the project
-git clone https://github.com/yourname/manifold-discovery
+git clone https://github.com/aditya-dev/manifold-discovery
 cd manifold-discovery
 
 # 2. Create and activate environment (one command)
